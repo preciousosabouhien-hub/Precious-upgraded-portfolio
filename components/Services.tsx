@@ -3,11 +3,12 @@ const services = [
   {
     title: "UI design",
     description: "UI design using figma.",
+    href: "#",
   },
   {
     title: "Front-end Web development",
     description: "Front-end web design using modern frameworks and libraries like tailwindCss, Next.js, Vite.js, React.js.",
-  
+    href: "#",
   },
 
 ];
