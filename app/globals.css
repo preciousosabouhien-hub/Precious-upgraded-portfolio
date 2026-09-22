@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 :root{
@@ -58,11 +61,14 @@ body {
   outline-offset: 3px;
 }
 .hero-text{
-  font-size:35px;
+  font-size:50px;
+  font-weight:bold;
   color:var(--primary-color-2);
   letter-spacing: 0.03cm;
 }
-
+.profileImage{
+  border:1px solid #fff;
+}
 .hero-info-text{
   font-size:14px;
   color:var(--primary-color-3);
@@ -70,6 +76,7 @@ body {
 }
 
 .hero-p{
+  font-size:17px;
   letter-spacing: 0.03cm;
 }
 

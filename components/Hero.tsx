@@ -8,8 +8,8 @@ export default function Hero() {
     >
       <div>
         <p className="mb-4 text-sm  hero-info-text">Front-end Developer</p>
-        <h1 className="max-w-2xl sm:text-6xl hero-text"><b>
-          I build clean, fast interfaces with modern frameworks.</b>
+        <h1 className="max-w-2xl sm:text-6xl hero-text">
+          I build clean, fast interfaces with modern frameworks.
         </h1>
         <p className="mt-6 max-w-prose text-zinc-500 hero-p">
           Currently open to remote roles and freelance projects. I care about
@@ -39,7 +39,7 @@ export default function Hero() {
         width={160}
         height={160}
         priority
-        className="h-40 w-40 flex-shrink-0 rounded-full border border-line object-cover"
+        className="h-40 w-40 flex-shrink-0 rounded-full profileImage object-cover"
       />
     </section>
   );
