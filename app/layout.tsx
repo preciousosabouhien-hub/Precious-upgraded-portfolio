@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import { Newsreader, Orbitron, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-import { config, library } from '@fortawesome/fontawesome-svg-core';
+import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-// Import the specific icons globally
-import { faXmark} from '@fortawesome/free-solid-svg-icons' ;
+
 config.autoAddCss = false
 // Add individual icons to the library
-library.add( faXmark)
+
 
 // Configure Orbitron. Orbitron is a variable font, 
 // so you don't strictly need to define weights unless you want to limit them.

@@ -25,14 +25,17 @@ body {
   background-color: var(--background-color);
   color: #c2c2c2;
 }
-.hero{
-  margin-top:30px;
-  background: var(--primary-color-1);
-  border-radius:10px;
-  width:100%;
-}
+
+/* ================================================================================================================================ */
+
+/* ================================================================== Navbar ================================================ */
+
+/* =============================================================================================================================== */
+
 .navbar{
   background: var(--primary-color-1);
+  position:fixed;
+  top:0;
   width:100%;
 }
 .navi-list{
@@ -58,17 +61,25 @@ body {
 .nav-icon:hover{
   color:var(--primary-color-2);
 }
-#work, #contact{
-  background: var(--primary-color-1);
-  border-radius:10px;
-}
-.service-box{
-  border-top:1px solid var(--divider-color);
-}
+
 /* visible keyboard focus, always */
 :focus-visible {
   outline: 2px solid var(--btn-background);
   outline-offset: 3px;
+}
+
+/* ================================================================================================================================ */
+
+/* ================================================================== Hero Section ================================================ */
+
+/* =============================================================================================================================== */
+
+
+.hero{
+  margin-top:8%;
+  background: var(--primary-color-1);
+  border-radius:10px;
+  width:100%;
 }
 .hero-text{
   font-size:50px;
@@ -114,6 +125,25 @@ body {
   background:transparent;
   border:2px solid var(--btn-background);
 }
+.hero-icons{
+  font-size:16px;
+  background:var(--background-color);
+  padding:8px;
+  border-radius:5px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.hero-icons:hover{
+  background:var(--skills-font-color);
+  border-radius:5px;
+  color:#fff;
+  transform: translateY(-4px);
+  opacity: 0.85;
+}
+/* ================================================================================================================================ */
+
+/* ================================================================== About section ================================================ */
+
+/* =============================================================================================================================== */
 
 .sectn-header{
   color:var(--primary-color-2);
@@ -132,6 +162,13 @@ body {
   letter-spacing:0.02cm;
   color:var(--skills-border);
 }
+
+/* ================================================================================================================================ */
+
+/* ================================================================== Service Section ================================================ */
+
+/* =============================================================================================================================== */
+
 .service-headr{
   color:var(--primary-color-3);
   letter-spacing: 0.02cm;
@@ -140,12 +177,34 @@ body {
   color:var(--skills-border);
   letter-spacing:0.02cm;
 }
+
+.service-box{
+  border-top:1px solid var(--divider-color);
+}
+/* ================================================================================================================================ */
+
+/* ================================================================== Project Section ================================================ */
+
+/* =============================================================================================================================== */
+
 .projects-headr{
   color:var(--primary-color-3);
 }
 .projects-headr:hover{
   color:var(--btn-background);
 }
+
+#work, #contact{
+  background: var(--primary-color-1);
+  border-radius:10px;
+}
+
+/* ================================================================================================================================ */
+
+/* ================================================================== Footer Section ================================================ */
+
+/* =============================================================================================================================== */
+
 .footr-text{
   color:var(--primary-color-2);
   line-height: 0.03cm;
@@ -197,20 +256,24 @@ body {
                                                       /* Responsive Navbar */
  .nav-icon{
   font-size:15px;
- }               
+ }   
+ .hero{
+  margin-top:20%;
+ }            
  .menu-button{
   display:block;
  } 
  .navi-list {
    display: flex;
     position: absolute;
-    top: 100%;
+    top: 11%;
     right: 0;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 50%;
 
-    background-color: #111;
+    background-color: var(--primary-color-1);
+    color:var(--btn-background);
     flex-direction: column;
     align-items: center;
     gap: 25px;
@@ -242,6 +305,30 @@ body {
  .hero-p{
   font-size:13px;
  }
+
+ 
+.primary-btn{
+  border:1px solid  var(--btn-background);
+  font-weight:bold;
+  letter-spacing: 0.02cm;
+  font-size:12px;
+}
+
+.primary-btn-2{
+ font-weight:bold;
+ font-size:12px;
+ letter-spacing: 0.02cm;
+ color:var(--primary-color-1);
+}
+
+
+.primary-btn-2:hover{ 
+  border:1px solid var(--btn-background);
+}
+.hero-icons{
+font-size:13px;
+padding:5px;
+}
 }
 
 @media (max-width: 600px){
