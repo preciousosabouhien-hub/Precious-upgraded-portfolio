@@ -8,7 +8,7 @@
   --primary-color-1:#00080e;
   --primary-color-2:#00cafc;
   --primary-color-3:#ffffff;
-  --background-color:#000000;
+  --background-color:#302d2d;
   --btn-background:#04a0c7;
   --skills-border:#bfbebec2;
   --skills-font-color:#04a0c7;
@@ -22,7 +22,7 @@ html {
    font-family: orbitron;
 }
 body {
-  background-color: #000000;
+  background-color: var(--background-color);
   color: #c2c2c2;
 }
 .hero{
