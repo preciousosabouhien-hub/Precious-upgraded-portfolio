@@ -9,7 +9,7 @@ export default function Contact() {
       <a
         href="mailto:preciousomosefe428@gmail.com"
         className="mt-6 inline-block px-5 py-2.5 text-sm primary-btn" >
-        Precious Omosefe
+        Send me an email
       </a>
     </section>
   );

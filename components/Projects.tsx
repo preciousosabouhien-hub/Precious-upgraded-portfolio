@@ -39,7 +39,7 @@ export default function Projects() {
                 {project.description}
               </p>
             </div>
-            <span className="whitespace-nowrap text-xs text-zinc-500">
+            <span className="whitespace-nowrap proj-descr text-zinc-500">
               {project.stack}
             </span>
           </a>
