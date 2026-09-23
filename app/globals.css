@@ -29,9 +29,11 @@ body {
   margin-top:30px;
   background: var(--primary-color-1);
   border-radius:10px;
+  width:100%;
 }
 .navbar{
   background: var(--primary-color-1);
+  width:100%;
 }
 .nav-links{
   color:var(--primary-color-3);
