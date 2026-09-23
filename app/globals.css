@@ -35,16 +35,24 @@ body {
   background: var(--primary-color-1);
   width:100%;
 }
+.navi-list{
+  display:flex;
+  align-items: center;
+  gap:30px;
+}
+
 .nav-links{
   color:var(--primary-color-3);
   font-size:14px;
   letter-spacing: 0.03cm;
+  text-decoration: none;
 }
 .nav-links:hover{
   color:var(--primary-color-2);
 }
 .nav-icon{
   color:var(--primary-color-3);
+  font-size:20px;
   letter-spacing: 0.02cm;
 }
 .nav-icon:hover{
@@ -150,10 +158,97 @@ body {
   border-top:1px solid var(--divider-color);
 }
 
+
+/* ================================================================================================================================ */
+
+/* ================================================================== Responsive Navbar ================================================ */
+
+/* =============================================================================================================================== */
+
+
+.menu-button{
+  display:none;
+  font-size:15px;
+  padding:10px;
+  border:1px solid var(--btn-background);
+  background: var(--primary-color-1);
+  border-radius:5px;
+  color:var(--btn-background);
+  transition: transform 0.3s ease;
+  
+} 
+.menu-button:hover {
+  background-color: var(--btn-background);
+  color:var(--primary-color-1);
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width:768px){
+                                                      /* Responsive Navbar */
+ .nav-icon{
+  font-size:15px;
+ }               
+ .menu-button{
+  display:block;
+ } 
+ .navi-list {
+   display: flex;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+
+    background-color: #111;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    padding: 30px 0;
+
+    /* Animation */
+    opacity: 0 ;
+    visibility: hidden;
+    transform: translateY(-20px);
+
+    transition: 0.3s ease;
+
+ }
+ 
+ .navi-list.active {
+    display:flex;
+    opacity: 1;
+    visibility:visible;
+    transform:translateY(0);
+ }
+                                                      /* Responsive Hero Section */
+ .hero-info-text{
+  font-size:10px;
+ }
+ .hero-text{
+  font-size:30px;
+ }
+ .hero-p{
+  font-size:13px;
+ }
+}
+
+@media (max-width: 600px){
+  .profileImage{
+  margin-left:35%;
+  }
+  .hero-info-text{
+    margin-left:35%;
   }
 }

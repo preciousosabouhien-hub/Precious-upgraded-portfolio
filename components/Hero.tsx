@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function Hero() {
@@ -8,7 +9,7 @@ export default function Hero() {
     >
       <div>
         <p className="mb-4 text-sm  hero-info-text">Front-end Developer</p>
-        <h1 className="max-w-2xl sm:text-6xl hero-text">
+        <h1 className="max-w-2xl hero-text">
           I build clean, fast interfaces with modern frameworks.
         </h1>
         <p className="mt-6 max-w-prose text-zinc-500 hero-p">

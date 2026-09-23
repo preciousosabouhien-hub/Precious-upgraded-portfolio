@@ -1,28 +1,30 @@
-const navLinks = [
-  { href: "#projects", label: "Projects" },
-  { href: "#work", label: "Services" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
-];
+"use client";
+
+import { useState } from "react" ;
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faBars, faXmark,
+} from "@fortawesome/free-solid-svg-icons" ;
+
 
 export default function Header() {
+   const [isMenuOpen, setIsMenuOpen ] = useState(false);
   return (
     <header className="navbar">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-5">
-        <a href="#top" className="font-serif text-lg nav-icon"><b>
+        <a href="#top" className="nav-icon"><b>
           Precious Omosefe</b>
-        </a>
-        <nav className="flex gap-6 text-sm ">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-white nav-links"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+    </a>
+              <div className={`navi-list ${isMenuOpen ? "active" : "" } `}>
+          <a href="#about" className="nav-links">About</a>
+          <a href="#work" className="nav-links">Services</a>
+          <a href="#projects" className="nav-links">Projects</a>
+          <a href="#contact" className="nav-links">Contact</a>
+          
+                </div>
+                    <button className="menu-button" onClick={() => setIsMenuOpen(!isMenuOpen)}
+                        ><FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars } /></button> 
+
       </div>
     </header>
   );
