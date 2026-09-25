@@ -365,9 +365,9 @@ font-weight:bold;
 
 @media (max-width: 600px){
   .profileImage{
-  margin-left:45%;
+  margin-left:35%;
   }
   .hero-info-text{
-    margin-left:45%;
+    margin-left:35%;
   }
 }

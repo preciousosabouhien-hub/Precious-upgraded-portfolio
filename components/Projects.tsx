@@ -4,7 +4,7 @@ const projects = [
     title: "E-commerce Web app",
     description: "Replace with a one-line description of what it does and who it's for.",
     stack: "React, Next.js, Tailwind",
-    href: "#",
+    href: "https://shop-ease-m.vercel.app/",
   },
   {
     title: "Forex Trading journal",
