@@ -31,9 +31,9 @@ export default function Hero() {
           I build clean, fast interfaces with modern frameworks.
         </h1>
         <p className="mt-6 max-w-prose text-zinc-500 hero-p">
-          Currently open to remote roles and freelance projects. I care about
-          readable code, accessible interfaces, and shipping things that work
-          on a slow connection as well as a fast one.
+          Focused on building responsive, accessible, and user-friendly web experiences. I write clean,
+           readable code and build products that perform reliably across different devices and connection speeds.
+            Currently open to remote roles and freelance projects.
         </p>
         <div className="mt-8 flex gap-4">
           <a
