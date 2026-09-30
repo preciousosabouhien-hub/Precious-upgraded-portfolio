@@ -13,6 +13,12 @@ const projects = [
     href: "#",
   },
   {
+    title: "Flights booking website",
+    description: "you can book a flight and verify booked flights on the website",
+    stack:"Vite.js, Typescript",
+    href:"https://skybooking-seven.vercel.app/",
+  },
+  {
     title: "Hotel website",
     description: "Replace with a one-line description of what it does and who it's for.",
     stack: "React, REST API",
