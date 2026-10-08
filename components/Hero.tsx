@@ -26,7 +26,7 @@ export default function Hero() {
       className="mx-auto flex max-w-4xl flex-col-reverse items-start gap-8 px-6 pb-16 pt-20 sm:flex-row sm:items-center sm:justify-between hero"
     >
       <div>
-        <p className="mb-4 text-sm  hero-info-text">Front-end Developer</p>
+        <p className="mb-4 text-sm  hero-info-text">Web Developer</p>
         <h1 className="max-w-2xl hero-text">
           I build clean, fast interfaces with modern frameworks.
         </h1>

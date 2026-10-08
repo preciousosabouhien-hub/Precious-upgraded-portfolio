@@ -176,7 +176,7 @@ body {
   letter-spacing: 0.02cm;
 }
 .service-descr{
-  color:var(--skills-border);
+  color:#c2c2c2;
   letter-spacing:0.02cm;
 }
 
@@ -197,12 +197,19 @@ body {
 }
 .proj-descr{
 font-size:15px;
-font-weight:bold;
 }
 
 #work, #contact{
   background: var(--primary-color-1);
   border-radius:10px;
+}
+.proj-des{
+  background-color:var(--primary-color-1);
+  padding:5px;
+}
+.projImage{
+  width:auto;
+  height:100px;
 }
 
 /* ================================================================================================================================ */
