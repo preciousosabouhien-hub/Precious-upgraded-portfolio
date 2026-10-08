@@ -8,8 +8,8 @@ const projects = [
     image: "/ssusuluxe-banner.png",
   },
   {
-    title: "Midas Trading journal",
-    description: "A full-stack trading journal that syncs real trade data from MetaTrader 5, tracks P&L, win rate, and strategy performance, and is deployed with JWT-protected CRUD operations",
+    title: "Midas-Touch Trading journal",
+    description: "A full-stack trading journal built for a forex trader, the journal syncs real trade data from MetaTrader 5, tracks P&L, win rate, and strategy performance, and is deployed with JWT-protected CRUD operations",
     stack: "React, Node.js, Express, PostgreSQl, Python, JWT, Render, Tailwind",
     href: "https://journal-frontend-uooz.onrender.com/",
     image: "/Trading-journal.png",
@@ -48,12 +48,12 @@ export default function Projects() {
             />
               </div>
        
-            </div>
+            </div><br/>
             <span className="proj-descr text-zinc-200">
                      <p className="mt-1 max-w-prose text-sm service-descr proj-des">
                 {project.description} 
-              </p>
-              {project.stack}
+              </p><br/>
+             {project.stack}
             </span>
           </a>
         ))}
