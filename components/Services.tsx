@@ -1,16 +1,25 @@
 // Edit this array with your own projects. Each one renders as a row below.
 const services = [
-  {
-    title: "UI design",
-    description: "UI design using figma.",
-    href: "#",
+    {
+    title: "Front-end development",
+    description: "I build responsive, modern, and user-friendly websites and web applications using technologies like React, Next.js, JavaScript, and Tailwind CSS.",
+    href: "#contact",
+  },
+  { 
+    title: "Backend Development",
+    description: "I build reliable backend systems, APIs, and server-side functionality that power web applications, including database integration, authentication, and data management.",
+    href: "#contact",
+  },
+    {
+    title: "UI/UX Design",
+    description: "I create clean and intuitive interfaces focused on usability, responsiveness, and a smooth user experience.",
+    href: "#contact",
   },
   {
-    title: "Front-end Web development",
-    description: "Front-end web design using modern frameworks and libraries like tailwindCss, Next.js, Vite.js, React.js.",
-    href: "#",
+    title: "Full-Stack Development",
+    description: "I develop web applications by combining modern frontend interfaces with robust backend functionality and database integration.",
+    href: "#contact",
   },
-
 ];
 
 export default function Work() {

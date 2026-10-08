@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex gap-4">
           <a
-            href="#work"
+            href="/PRECIOUS_OMOSEFE_Developer_Resume.pdf" target="_blank"  rel="noopener noreferrer"  aria-label="My Resume"
             className="px-5 py-2.5 transition-colors primary-btn"
           >
             Resume
